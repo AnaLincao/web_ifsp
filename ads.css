@@ -1,0 +1,33 @@
+#titulo{
+  text-align:center;
+  font-family: arial;
+}
+
+#dados th{
+  background-color:green;
+  color:white;
+  padding-bottom:12px;
+  padding-top:12px;
+  text-align:center;
+}
+
+#dados{
+  border:3px solid lightgray;
+  border-collapse: collapse;
+  text-align:center;
+  width:100%;
+  font-family: arial;
+}
+
+#dados td, #dados th{
+  border:1px solid lightgray;
+  padding:10px;  
+}
+
+#dados tr:nth-child(2n){
+  background-color:whitesmoke;
+}
+
+#dados tr:hover{
+  background-color:lightgrey
+}
